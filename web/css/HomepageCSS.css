@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Feb, 2020, 10:34:54 PM
+    Author     : Saikiran
+*/
+body{
+    background-image: linear-gradient(120deg,#3498db,#8e44ad);
+    margin:0px;
+    text-decoration: none;
+}
+.header
+{
+    height:10%;
+    background-image: linear-gradient(120deg,#feffff,#feffff);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 140%;
+    transition: 0.1s; 
+    box-shadow: 10px 10px 10px 10px rgb(168, 203, 224);  
+    display: flex;
+	flex-direction: row;
+	
+    }
+
+    #list{
+        float:right;
+       margin-left: 900px;
+       padding:0px 30px 0px 0px;
+       color: wheat;
+    }
+
+    #li1
+    {
+        padding-right: 20px;
+        padding-left: 20px;
+        text-align: center;
+        background-color:white;
+        color: black;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+ul li{
+    display:inline-flex;
+}
+#klu
+{
+    font-size: 150%;
+    letter-spacing: 4.5px;
+}
+.middle-buttons
+{
+    text-decoration: none;
+    margin-top: 250px;
+    margin-left:560px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2.5px;
+    font-style: oblique;
+}
+#academics
+{
+    margin-right: 20px;
+    padding:20px;
+    height: 25%;
+    font-size: 25px;
+    color:black;    
+}
+#time-table
+{
+    margin-right: 20px;
+    padding:20px;
+    text-align: center;
+    font-size: 25px;
+}
+

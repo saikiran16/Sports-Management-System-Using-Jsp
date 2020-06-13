@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    font-family : Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body
+{
+ // background-image: linear-gradient(120deg,#3498db,#8e44ad);
+  background-color: white;
+ 
+}
+.login-form
+{
+    width:35%;
+    height: 90%;
+    margin :50px 150px 100px 500px;
+    left: 50%;
+    
+
+}
+#Login-Label
+{
+    padding:40px;
+    text-decoration: none;
+    text-align:center;
+    font-family: Helvetica;
+    font-weight: 50;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+.user-name{
+    padding:25px 60px 10px 55px;
+
+}
+.pass-word
+{
+    padding:35px 60px 10px 75px;
+}
+.Sign-In
+{
+    padding:40px 60px 10px 90px;
+       
+}
+#button
+{
+    width:80%;
+    height: 10%;
+    background-image: linear-gradient(120deg,#3498db,#8e44ad);
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+.Sign-Up
+{
+    text-align: center;
+   padding:40px;
+}
+#password
+{
+    width:90%;
+    height: 7%;
+    
+    
+    font-size:17px;
+    
+   
+}
+#username
+{
+    width:90%;
+    height: 7%;
+   border-bottom: none;
+    font-size: 17px;
+    
+}
+#button:hover
+{
+    transition:0.5s;
+    width:90% ;
+    font-size: 20px;
+    border-collapse: none;
+    
+   
+}
+.table-successfull
+{
+   background-color: white;
+    padding : 1px 0px 0px 400px;
+    //width : 70%;
+   // border : 2px solid black;
+    
+}
+td{
+    font-size: 20px;
+    padding : 10px 160px 25px 10px;
+    
+    
+}
+tr:nth-child(even) {
+    background-color:#c4e3f3
+}
+
+.conformation-message{
+    font-family: cursive;
+    background-color: lightgreen ;
+    width : 30%;
+    
+}
+.details-table
+{
+   background-color: white;
+    padding : 1px 0px 0px 400px;
+    //width : 70%;
+   // border : 2px solid black;
+    
+}
+
+
+
